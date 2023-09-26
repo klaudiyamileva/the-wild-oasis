@@ -70,7 +70,6 @@ const MenusContext = createContext();
 function Menus({ children }) {
   const [openId, setOpenId] = useState("");
   const [position, setPosition] = useState(null);
-  // const close = setOpenId("");
   const close = () => setOpenId("");
   const open = setOpenId;
 
@@ -92,6 +91,8 @@ function Toggle({ id }) {
       x: window.innerWidth - rect.width - rect.x,
       y: rect.y + rect.height + 8,
     });
+    console.log('openID ' + openId);
+    console.log('id ' + id);
     openId !== id || openId === "" ? open(id) : close();
   }
 
