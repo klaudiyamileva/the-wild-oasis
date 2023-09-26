@@ -50,6 +50,7 @@ function Filter({ filterField, options }) {
         <FilterButton
           key={option.value}
           onClick={() => handleClick(option.value)}
+          disabled={currFilter === option.value}
           active={currFilter === option.value}
         >
           {option.label}
