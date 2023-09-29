@@ -23,18 +23,6 @@ export function useBookings() {
   // PAGINATION
   const page = !searchParams.get("page") ? 1 : Number(searchParams.get("page"));
 
-  // Handle filter or sorting criteria change
-  const handleFilterSortChange = () => {
-    // Reset the page to 1
-    searchParams.set("page", "1");
-    serSearchParams(searchParams);
-  };
-
-  // Listen for changes in filter or sorting criteria
-  useEffect(() => {
-    handleFilterSortChange();
-  }, [filterValue, sortedValue]);
-
   // QUERY
   const {
     isLoading,
