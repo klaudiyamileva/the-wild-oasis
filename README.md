@@ -32,8 +32,7 @@ This is a custom-build application to manage bookings, cabins and guests.
 
 - Guest data contain: full name, email, national ID, nationality, and a country flag for easy identification
 
-6. Dashboard
-   The initial app screen is a dashboard, which display important information for the last 7, 30, or 90 days:
+6. Dashboard - The initial app screen is a dashboard, which display important information for the last 7, 30, or 90 days:
 
 - A list of guests checking in and out on the current day. Users are able to perform these tasks from here
 - Statistics on recent bookings, sales, check ins, and occupancy rate
