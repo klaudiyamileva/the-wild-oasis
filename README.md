@@ -1,5 +1,7 @@
 # The Wild Oasis
 
+Link to deployed application: https://the-wild-oasis-site.netlify.app/login
+
 The Wild Oasis is a small boutique hotel with 8 wooden cabins.
 This is a custom-build application to manage bookings, cabins and guests.
 
@@ -45,6 +47,7 @@ This is a custom-build application to manage bookings, cabins and guests.
 - App has a dark mode
 
 # Technology decisions
+
 - Routing -> ReactRouter
 - Styling -> Styled Components
 - Remote state management -> React Query
